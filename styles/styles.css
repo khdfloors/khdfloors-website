@@ -127,20 +127,7 @@ header {
     transition: all 200ms ease-in-out
 }
 
-.fa-times:hover {
-    animation: rotateAnimation 200ms ease-in-out;
-}
 
-/* animation*/
-@keyframes rotateAnimation {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(90deg);
-    }
-}
 
 /* hero style image */
 .hero-container {
@@ -164,7 +151,7 @@ header {
 
 @media (max-width: 768px) {
     .hero-text {
-        left: 30vw;
+        left: 35vw;
     }
 }
 
